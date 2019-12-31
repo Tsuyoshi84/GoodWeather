@@ -7,17 +7,52 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Good Weather-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GoodWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IbJ-Ld-GSP">
+                                <rect key="frame" x="107" y="118" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="uuO-CS-KmA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kY-hh-PJ7">
+                                <rect key="frame" x="160" y="424" width="94" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpZ-ux-Czb">
+                                <rect key="frame" x="186" y="522" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IbJ-Ld-GSP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="0Dx-Vh-iOL"/>
+                            <constraint firstItem="DpZ-ux-Czb" firstAttribute="top" secondItem="0kY-hh-PJ7" secondAttribute="bottom" constant="50" id="BvE-qK-Mja"/>
+                            <constraint firstItem="IbJ-Ld-GSP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pn5-G7-6x7"/>
+                            <constraint firstItem="0kY-hh-PJ7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WQ1-95-KBd"/>
+                            <constraint firstItem="0kY-hh-PJ7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hFZ-Au-8jT"/>
+                            <constraint firstItem="DpZ-ux-Czb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kII-1L-6GD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Uzt-2I-yoS"/>
+                    <navigationItem key="navigationItem" title="Good Weather" id="Uzt-2I-yoS"/>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="IbJ-Ld-GSP" id="7dy-oG-LHL"/>
+                        <outlet property="humidityLabel" destination="DpZ-ux-Czb" id="zMS-0V-dp1"/>
+                        <outlet property="temperatureLabel" destination="0kY-hh-PJ7" id="s6O-xa-xVP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
