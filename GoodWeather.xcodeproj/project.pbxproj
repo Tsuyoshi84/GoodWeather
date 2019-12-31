@@ -17,6 +17,7 @@
 		48DC7E2823BB7F9B0051AB5B /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC7E2723BB7F9B0051AB5B /* WeatherResult.swift */; };
 		48DC7E2B23BB83890051AB5B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2923BB83880051AB5B /* Podfile */; };
 		48DC7E2C23BB83890051AB5B /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2A23BB83890051AB5B /* Podfile.lock */; };
+		48DC7E2F23BB84F50051AB5B /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		48DC7E2723BB7F9B0051AB5B /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
 		48DC7E2923BB83880051AB5B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		48DC7E2A23BB83890051AB5B /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
 		4D9AEDE5156FC9DA45657248 /* Pods-GoodWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.release.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.release.xcconfig"; sourceTree = "<group>"; };
 		97BF742FB9D480DD81E49418 /* Pods-GoodWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 		48DC7E1123BB7C9C0051AB5B /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				48DC7E2D23BB84D60051AB5B /* Extensions */,
 				48DC7E2623BB7F840051AB5B /* Models */,
 				48DC7E1223BB7C9C0051AB5B /* AppDelegate.swift */,
 				48DC7E1423BB7C9C0051AB5B /* SceneDelegate.swift */,
@@ -97,6 +100,14 @@
 				48DC7E2723BB7F9B0051AB5B /* WeatherResult.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		48DC7E2D23BB84D60051AB5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5384E954B9C2C41583B02AA1 /* Pods */ = {
@@ -228,6 +239,7 @@
 				48DC7E1723BB7C9C0051AB5B /* ViewController.swift in Sources */,
 				48DC7E2823BB7F9B0051AB5B /* WeatherResult.swift in Sources */,
 				48DC7E1323BB7C9C0051AB5B /* AppDelegate.swift in Sources */,
+				48DC7E2F23BB84F50051AB5B /* URLRequest+Extensions.swift in Sources */,
 				48DC7E1523BB7C9C0051AB5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
