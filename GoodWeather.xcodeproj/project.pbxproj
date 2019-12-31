@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		48DC7E1C23BB7CA00051AB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E1B23BB7CA00051AB5B /* Assets.xcassets */; };
 		48DC7E1F23BB7CA00051AB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E1D23BB7CA00051AB5B /* LaunchScreen.storyboard */; };
 		48DC7E2823BB7F9B0051AB5B /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC7E2723BB7F9B0051AB5B /* WeatherResult.swift */; };
+		48DC7E2B23BB83890051AB5B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2923BB83880051AB5B /* Podfile */; };
+		48DC7E2C23BB83890051AB5B /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2A23BB83890051AB5B /* Podfile.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		48DC7E1E23BB7CA00051AB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DC7E2023BB7CA00051AB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48DC7E2723BB7F9B0051AB5B /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
+		48DC7E2923BB83880051AB5B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		48DC7E2A23BB83890051AB5B /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		4D9AEDE5156FC9DA45657248 /* Pods-GoodWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.release.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.release.xcconfig"; sourceTree = "<group>"; };
 		97BF742FB9D480DD81E49418 /* Pods-GoodWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +63,8 @@
 				48DC7E1023BB7C9C0051AB5B /* Products */,
 				5384E954B9C2C41583B02AA1 /* Pods */,
 				1FB6F8CC8AD3C4B42752DDA3 /* Frameworks */,
+				48DC7E2923BB83880051AB5B /* Podfile */,
+				48DC7E2A23BB83890051AB5B /* Podfile.lock */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +105,6 @@
 				97BF742FB9D480DD81E49418 /* Pods-GoodWeather.debug.xcconfig */,
 				4D9AEDE5156FC9DA45657248 /* Pods-GoodWeather.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,6 +170,8 @@
 			files = (
 				48DC7E1F23BB7CA00051AB5B /* LaunchScreen.storyboard in Resources */,
 				48DC7E1C23BB7CA00051AB5B /* Assets.xcassets in Resources */,
+				48DC7E2C23BB83890051AB5B /* Podfile.lock in Resources */,
+				48DC7E2B23BB83890051AB5B /* Podfile in Resources */,
 				48DC7E1A23BB7C9C0051AB5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
