@@ -18,6 +18,7 @@
 		48DC7E2B23BB83890051AB5B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2923BB83880051AB5B /* Podfile */; };
 		48DC7E2C23BB83890051AB5B /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 48DC7E2A23BB83890051AB5B /* Podfile.lock */; };
 		48DC7E2F23BB84F50051AB5B /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */; };
+		48DC7E3123BB8F7C0051AB5B /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC7E3023BB8F7C0051AB5B /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		48DC7E2923BB83880051AB5B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		48DC7E2A23BB83890051AB5B /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		48DC7E3023BB8F7C0051AB5B /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		4D9AEDE5156FC9DA45657248 /* Pods-GoodWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.release.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.release.xcconfig"; sourceTree = "<group>"; };
 		97BF742FB9D480DD81E49418 /* Pods-GoodWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				48DC7E2E23BB84F50051AB5B /* URLRequest+Extensions.swift */,
+				48DC7E3023BB8F7C0051AB5B /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48DC7E1723BB7C9C0051AB5B /* ViewController.swift in Sources */,
+				48DC7E3123BB8F7C0051AB5B /* URL+Extensions.swift in Sources */,
 				48DC7E2823BB7F9B0051AB5B /* WeatherResult.swift in Sources */,
 				48DC7E1323BB7C9C0051AB5B /* AppDelegate.swift in Sources */,
 				48DC7E2F23BB84F50051AB5B /* URLRequest+Extensions.swift in Sources */,
